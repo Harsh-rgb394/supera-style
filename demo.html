@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling links Buttons </title>
+</head>
+<style>
+    .container {
+        width: 600px;
+        /* you can adjust top or down padding but not left right  
+        because its set equal on left==right both okay */
+        margin: 34px auto;
+        background-color: antiquewhite;
+        padding: 23px 23px;
+        border: 2px solid red;
+    }
+
+    .anc {
+        text-decoration: none;
+        cursor: pointer;
+        /* font-size: 12px; */
+        font-weight: bold;
+    }
+
+    .anc:hover {
+        color: cadetblue;
+    }
+
+    /* .anc:visited {
+        color: chartreuse;
+    } */
+    .anc:active {
+        color: blue;
+    }
+
+    .btn {
+        background-color: whitesmoke;
+        color: black;
+        border-radius: 12px;
+        margin-left: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: aqua;
+    }
+
+    .btn:active {
+        background-color: azure;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <h2>this is heading</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolorum quia fuga! Quia,
+            consequuntur odio ipsum
+            ex exercitationem ducimus suscipit!</p>
+        <a href="https://www.google.co.in/" class="anc">Read more</a>
+        <button class="btn">Submit</button>
+
+    </div>
+
+</body>
+
+</html>
